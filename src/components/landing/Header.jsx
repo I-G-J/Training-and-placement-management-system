@@ -31,12 +31,17 @@
            </a>
          </nav>
  
-         <Link to="/admin">
-           <Button variant="outline" size="sm" className="gap-2">
-             <LogIn className="w-4 h-4" />
-             Admin Login
-           </Button>
-         </Link>
+         <div className="flex items-center gap-4">
+           <Link to="/login">
+             <Button size="sm">Login</Button>
+           </Link>
+           <Link to="/admin">
+             <Button variant="outline" size="sm" className="gap-2">
+               <LogIn className="w-4 h-4" />
+               Admin Login
+             </Button>
+           </Link>
+         </div>
        </div>
      </header>
    );

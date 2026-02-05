@@ -12,7 +12,7 @@
                  <GraduationCap className="w-5 h-5 text-primary-foreground" />
                </div>
                <div>
-                 <span className="font-semibold text-foreground">Training & Placement Cell</span>
+                 <span className="font-semibold text-foreground">RKDF University Training & Placement Cell</span>
                </div>
              </div>
              <p className="text-muted-foreground text-sm max-w-md mb-6">
@@ -23,11 +23,11 @@
              <div className="space-y-2">
                <div className="flex items-center gap-2 text-sm text-muted-foreground">
                  <MapPin className="w-4 h-4" />
-                 <span>University Campus, Academic Block B</span>
+                 <span>RKDF University Campus, Academic Block B</span>
                </div>
                <div className="flex items-center gap-2 text-sm text-muted-foreground">
                  <Mail className="w-4 h-4" />
-                 <span>placement@university.edu</span>
+                 <span>placement@RKDFuniversity.edu</span>
                </div>
                <div className="flex items-center gap-2 text-sm text-muted-foreground">
                  <Phone className="w-4 h-4" />
@@ -64,7 +64,7 @@
              © 2025 Training & Placement Cell. All rights reserved.
            </p>
            <p className="text-sm text-muted-foreground">
-             Made with ❤️ for student success
+             Made for the success of students of RKDFuniversity.
            </p>
          </div>
        </div>

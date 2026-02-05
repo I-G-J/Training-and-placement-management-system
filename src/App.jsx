@@ -6,6 +6,8 @@
  import Index from "./pages/Index";
  import NotFound from "./pages/NotFound";
  import AdminLogin from "./pages/AdminLogin";
+ import Login from "./components/landing/Login";
+ import Signup from "./components/landing/Signup";
  import AdminLayout from "./components/admin/AdminLayout";
  import AdminDashboard from "./pages/admin/Dashboard";
  import Students from "./pages/admin/Students";
@@ -28,6 +30,8 @@
          <Routes>
            {/* Public Routes */}
            <Route path="/" element={<Index />} />
+           <Route path="/login" element={<Login />} />
+           <Route path="/signup" element={<Signup />} />
            <Route path="/admin" element={<AdminLogin />} />
            
            {/* Admin Dashboard Routes */}

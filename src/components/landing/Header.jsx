@@ -1,6 +1,7 @@
  import { Link } from "react-router-dom";
  import { Button } from "@/components/ui/button";
- import { GraduationCap, LogIn } from "lucide-react";
+ import { GraduationCap, LogIn, User } from "lucide-react";
+ import { SignedIn, SignedOut, UserButton } from "@clerk/clerk-react";
  
  const Header = () => {
    return (
@@ -29,15 +30,31 @@
            <a href="#highlights" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
              Highlights
            </a>
+           <a href="#contact" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
+             Contact
+           </a>
+          
          </nav>
  
          <div className="flex items-center gap-4">
-           <Link to="/login">
-             <Button size="sm">Login</Button>
-           </Link>
+           <SignedOut>
+             <Link to="/login">
+               <Button size="sm">Login</Button>
+             </Link>
+           </SignedOut>
+           <SignedIn>
+             <UserButton afterSignOutUrl="/" />
+             <Link to="/student/dashboard">
+               <Button variant="outline" size="sm" className="gap-2">
+                 <User className="w-4 h-4" />
+                 Student Dashboard
+               </Button>
+             </Link>
+           </SignedIn>
            <Link to="/admin">
              <Button variant="outline" size="sm" className="gap-2">
                <LogIn className="w-4 h-4" />
+               
                Admin Login
              </Button>
            </Link>

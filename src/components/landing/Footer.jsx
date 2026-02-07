@@ -44,6 +44,7 @@
                <li><a href="#companies" className="text-sm text-muted-foreground hover:text-foreground transition-colors">Companies</a></li>
                <li><a href="#trainings" className="text-sm text-muted-foreground hover:text-foreground transition-colors">Trainings</a></li>
                <li><a href="#highlights" className="text-sm text-muted-foreground hover:text-foreground transition-colors">Highlights</a></li>
+               <li><a href="#contact" className="text-sm text-muted-foreground hover:text-foreground transition-colors">Contact Us</a></li>
              </ul>
            </div>
  

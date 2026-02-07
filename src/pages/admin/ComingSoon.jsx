@@ -17,7 +17,4 @@
  };
  
  export const AdminCompanies = () => <ComingSoon title="Companies" />;
- export const AdminPlacements = () => <ComingSoon title="Placements" />;
- export const AdminTrainings = () => <ComingSoon title="Trainings" />;
- export const AdminReports = () => <ComingSoon title="Reports" />;
  export const AdminSettings = () => <ComingSoon title="Settings" />;
